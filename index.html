@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spencers Portfolio Website</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+    <!-- Nav Bar section-->
+    <section>
+        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top fill_navbar">
+            <a href="#" class="navbar-brand">Spencer Thomason</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">RESUME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/spencerdispenced" class="nav-link" target="_blank">GITHUB</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/spencer-thomason-92577b180/" class="nav-link"
+                            target="_blank">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Summary section -->
+    <header>
+        <div class="container d-flex align-items-center flex-column">
+            <img id="profile_pic" src="images/profile_pic.jpg" title="Thats me" alt="" class="center-block">
+        </div>
+
+        <div class="container d-flex align-items-center flex-column">
+            <div class="col-10 col-lg-8 mb-5 mb-md-0">
+                <h2 class="text-center" id="summary_headline">Summary</h2>
+                <p class="summary text-center">Graduate with a Bachelor of Science in Computer Science. Excels at
+                    working
+                    on
+                    projects in a
+                    collaborative team environment while accomplishing tasks and achieving goals
+                    independently.
+                    Experienced at product design, development, and testing. Outstanding communication
+                    skills
+                    and
+                    leadership ability. Proven success in team, operations, and project leadership roles,
+                    with
+                    superior
+                    training, coaching, and mentoring acumen; rapidly master new operations, processes,
+                    procedures,
+                    systems, and technologies.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container-fluid">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase mb-0">Portfolio</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+                <!-- Portfolio Item 1-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid portfolio_image" src="images/daily_quotes_cropped.png"
+                            alt="Responsive image" />
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid portfolio_image" src="images/pong.png" alt="Responsive image" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center">
+                <!-- Portfolio Item 3-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid portfolio_image" src="images/snake.png" alt="Responsive image" />
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img id="more" class="img-fluid portfolio_image " src="images/more.png"
+                            alt="Responsive image" />
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portfolio Modals -->
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="#portfolioModal1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Daily Quotes</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5 portfolio_image modal_image"
+                                    src="images/daily_quotes_cropped.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4 text-center">Web app designed to send subscribers one email daily with a
+                                    quote attributed to a celebrity or fictional character.
+                                <ul class="text-left">
+                                    <li>Built with Python and Flask framework.</li>
+                                    <li>Postgres used to manage database.</li>
+                                    <li> BeautifulSoup used for webscraping.</li>
+                                    <li>yagmail used to send emails.</li>
+                                </ul>
+                                </p>
+                                <p>
+                                    Deployed on Heroku at:
+                                    <br>
+                                    <a href="https://dailyquotesst.herokuapp.com/"
+                                        target="_blank">https://dailyquotesst.herokuapp.com/</a>
+                                    <br>
+                                    (Give it a second to load, its on the free tier)
+                                </p>
+                                <p>
+                                    View Code at:
+                                    <br>
+                                    <a href="https://github.com/spencerdispenced/Daily_Quotes"
+                                        target="_blank">https://github.com/spencerdispenced/Daily_Quotes</a>
+                                </p>
+                                <button class="btn gen_button" href="#!" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="#portfolioModal2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Pong</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5 portfolio_image modal_image" src="images/pong.png"
+                                    alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4 text-center">
+
+                                    Classic Pong game built using C++ with SDL, SDL_TTF, and SDL_Mixer libraries.
+                                </p>
+
+                                <h4 class="bold mb-2">Controls</h4>
+                                <p>
+                                    Left side is controlled with 'w' and 'z' keys. Right side is controlled with 'up'
+                                    and 'down' arrow keys.
+                                    <br>
+                                    To quit, press 'q' or close the window.
+                                </p>
+
+                                <h4 class="bold mb-4">Features</h4>
+                                <p>
+                                    Angle of ball determined by specific location ball hits paddle. Sound effects for
+                                    collisions and scoring
+                                </p>
+
+                                <p>
+                                    View Code at:
+                                    <br>
+                                    <a href="https://github.com/spencerdispenced/Pong "
+                                        target="_blank">https://github.com/spencerdispenced/Pong</a>
+                                </p>
+                                <button class="btn gen_button" href="#!" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="#portfolioModal3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Snake</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5 portfolio_image modal_image" src="images/snake.png"
+                                    alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4 text-center">
+
+                                    Snake game using python and pygame. Move the snake and collect the food to get a
+                                    high score. Focus on keeping code organized with classes and adhering (mostly) to
+                                    PEP8 standards.
+                                </p>
+
+                                <h4 class="bold mb-2">Controls</h4>
+                                <p>
+                                    Arrow keys to control snake, 'p' to pause
+                                    <br>
+                                    To quit, press 'q' or close the window.
+                                </p>
+
+                                <h4 class="bold mb-4">Includes many features such as:</h4>
+                                <p>
+                                <ul class="text-left">
+                                    <li>Multi colored background</li>
+                                    <li>Multi colored snake</li>
+                                    <li>Game music</li>
+                                    <li>Sound effects for eating and losing game</li>
+                                    <li>Pause function</li>
+                                    <li>Restart game after losing by pressing 'y' or 'n'</li>
+                                    <li>Persistent high score</li>
+                                </ul>
+                                </p>
+
+                                <p>
+                                    View Code at:
+                                    <br>
+                                    <a href="https://github.com/spencerdispenced/Snake"
+                                        target="_blank">https://github.com/spencerdispenced/Snake</a>
+                                </p>
+                                <button class="btn gen_button" href="#!" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Portfolio Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="#portfolioModal4"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Other examples</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                </div>
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4 text-center">
+
+                                    More can be found on my Github page, Including:
+                                <ul class="text-left ml-5">
+                                    <li>Multi-Treaded linux chatroom written in C</li>
+                                    <li>RSA implementation written in C++</li>
+                                    <li>Password generator written in Python</li>
+
+                                </ul>
+                                Plus more to come.
+                                </p>
+                                View at:
+                                <br>
+                                <a href="https://github.com/spencerdispenced"
+                                    target="_blank">https://github.com/spencerdispenced</a>
+                                </p>
+                                <button class="btn gen_button" href="#!" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="text-center"><a href="mailto: spencerthomason1@gmail.com">Contact me</a></div>
+        <div class="text-center text-white">
+            <small>Copyright &copy; Spencer Thomason 2022</small>
+        </div>
+    </footer>
+
+
+    <!-- Custom Javascript -->
+    <script src="scripts/app.js"></script>
+
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

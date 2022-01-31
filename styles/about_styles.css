@@ -1,0 +1,131 @@
+
+
+/* stylings for icons on 'about' page */
+.icon {
+    height: 100px;
+    width: 100px;
+    display: inline;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+  }
+
+@media (max-width: 576px) {
+    .icon {
+        height: 75px;
+        width: 75px;
+    }
+}
+
+
+
+.tech_headings {
+    display: inline;
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    color : #b176e9;
+    text-shadow: 1px 1px black;
+}
+
+.row {
+    margin-left: 0rem;
+}
+
+.container {
+    padding-left: 0;
+    margin-left: 3rem;
+    
+}
+
+@media (max-width: 576px) {
+    .container {
+      margin-left: 0;
+  }
+}
+
+
+
+.subheading {
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+section.resume {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;  
+    background-image: linear-gradient(#2c3e50, #214d4e, #2c3e50);
+    background-size: cover;
+}
+
+section.resume .resume-content {
+    width: 100%;
+}
+
+/* Styles for education section */
+.resume-content {
+    color : #3ea5aa;
+    text-shadow: 1px 1px black;
+    margin-left: 3rem;
+}
+
+@media (max-width: 576px) {
+    .resume-content {
+      margin-left: 0;
+  }
+}
+
+.resume-content h2{
+    background: linear-gradient(to right, #86d7db, #2c3e50);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(1px 1px black);
+    font-family: "Montserrat", sans-serif;
+    text-shadow: none;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .resume-content h2{
+      text-align: left;
+  }
+}
+
+#experience {
+    background-image: none;
+}
+
+#experience_content {
+    color: #b176e9;
+}
+
+/* Styles for experience section */
+#experience_content h2{
+    background: linear-gradient(to right, #b176e9, #4a157c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(1px 1px black);
+    font-family: "Montserrat", sans-serif;
+    text-shadow: none;
+}
+
+@media (max-width: 576px) {
+    #experience-content h2{
+      text-align: left;
+  }
+}
+
+
+.divider-custom .divider-custom-line {
+    background-color: #4a157c;
+}
+
+
